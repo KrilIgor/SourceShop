@@ -1,0 +1,27 @@
+<div>
+    <div class="community">
+        <h2>Create new community</h2>
+        <form action="/community/new" method="post" class="ajax">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" name="name" class="form-control" placeholder="Enter name of community">
+                <span class="error-messages"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleTextarea">Community description and rules</label>
+                <textarea class="form-control" name="about" rows="15"></textarea>
+                <span class="error-messages"></span>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="secured">
+                    Премодерацiя постiв
+                </label><br>
+                <div style="width: 400px" class="text-muted">Пости інших користувачів, додані в Ваше товариство,
+                    будуть зобов'язані пройти премодерацію
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+    </div>
+</div>
