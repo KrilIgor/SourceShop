@@ -7,7 +7,7 @@ In this file provided information about project installation, structure and impo
 To clone this project from git use: 
 
 ```bash
-> git clone https://github.com/krushelnytskyi/CourseShop.git
+> git clone https://github.com/KrilIgor/SourceShop.git
 ```
 
 Project files, including this document will be placed relational in CourseShop folder.
